@@ -1,0 +1,1 @@
+# CNC_NAAC_Criteria2_ICT_2025_2026
