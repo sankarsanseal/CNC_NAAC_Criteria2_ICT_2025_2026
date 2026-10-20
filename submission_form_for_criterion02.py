@@ -26,10 +26,14 @@ def list_of_departments():
 
 
 st.set_page_config(page_title = "Criterion 2 related document submission portal", layout = "wide")
+
+
 selected_department = st.sidebar.selectbox("**Select the Department Name from the following dropdown**", 
                                    list_of_departments().keys(), 
                                    persist_state = "session", 
-                                   key = "selected_department")
+                                   key = "selected_department",
+                                   placeholder = "Choose the department",
+                                   index = None)
 
 # st.session_state["selected_department"] = selected_department 
 

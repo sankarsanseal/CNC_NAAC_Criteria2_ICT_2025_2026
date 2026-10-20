@@ -5,19 +5,24 @@ st.header(f"Selected Department: {st.session_state.selected_department}")
 st.write("The notices for the internal assessment")
 container_for_internal_assessment_notice = st.container(border= True)
 
-container_for_internal_assessment_notice.file_uploader(label = "Semester I Internal Assessment Notice", type = "pdf",  
+[col1, col2, col3, col4] = container_for_internal_assessment_notice.columns(4, wrap = True)
+
+[col5, col6, col7, col8] = container_for_internal_assessment_notice.columns(4, wrap = True)
+
+
+col1.file_uploader(label = "Semester I Internal Assessment Notice", type = "pdf",  
                                                        key = "semI_notice")
-container_for_internal_assessment_notice.file_uploader(label = "Semester II Internal Assessment Notice", type = "pdf", 
+col2.file_uploader(label = "Semester II Internal Assessment Notice", type = "pdf", 
                                                        key = "semII_notice")
-container_for_internal_assessment_notice.file_uploader(label = "Semester III Internal Assessment Notice", type = "pdf", 
+col3.file_uploader(label = "Semester III Internal Assessment Notice", type = "pdf", 
                                                        key = "semIII_notice")
-container_for_internal_assessment_notice.file_uploader(label = "Semester IV Internal Assessment Notice", type = "pdf", 
+col4.file_uploader(label = "Semester IV Internal Assessment Notice", type = "pdf", 
                                                        key = "semIV_notice")
-container_for_internal_assessment_notice.file_uploader(label = "Semester V Internal Assessment Notice", type = "pdf", 
+col5.file_uploader(label = "Semester V Internal Assessment Notice", type = "pdf", 
                                                        key = "semV_notice")
-container_for_internal_assessment_notice.file_uploader(label = "Semester VI Internal Assessment Notice", type = "pdf", 
+col6.file_uploader(label = "Semester VI Internal Assessment Notice", type = "pdf", 
                                                        key = "semVI_notice")
-container_for_internal_assessment_notice.file_uploader(label = "Semester VII Internal Assessment Notice", type = "pdf", 
+col7.file_uploader(label = "Semester VII Internal Assessment Notice", type = "pdf", 
                                                        key = "semVII_notice")
-container_for_internal_assessment_notice.file_uploader(label = "Semester VIII Internal Assessment Notice", type = "pdf", 
+col8.file_uploader(label = "Semester VIII Internal Assessment Notice", type = "pdf", 
                                                        key = "semVIII_notice")
