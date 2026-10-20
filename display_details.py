@@ -74,8 +74,8 @@ hide_index=True,
 
 st.table(new_ict_departmental_df)
 
-with pd.ExcelWriter(PATH_TO_NEXT_YEAR_EXCEL, engine='openpyxl') as writer:
-    new_ict_departmental_df.to_excel(writer, sheet_name="Table 1", index=False)
+# with pd.ExcelWriter(PATH_TO_NEXT_YEAR_EXCEL, engine='openpyxl') as writer:
+#     new_ict_departmental_df.to_excel(writer, sheet_name="Table 1", index=False)
 
 # new_ict_departmental_df.to_excel(
 #     PATH_TO_NEXT_YEAR_EXCEL,
