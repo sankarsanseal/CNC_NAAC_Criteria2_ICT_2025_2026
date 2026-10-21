@@ -1,2 +1,5 @@
 streamlit
 openpyxl
+sqlalchemy
+psycopg2-binary
+st-gsheets-connection
