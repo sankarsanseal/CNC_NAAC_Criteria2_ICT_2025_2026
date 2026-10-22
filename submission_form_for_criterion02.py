@@ -43,7 +43,7 @@ page_2_2_1 = st.Page("Criterion02/Criteria2.2/01_2.2.1_Programmes_For_Advanced_A
 page_2_3_1 = st.Page("Criterion02/Criteria2.3/01_2.3.1_Problem_Solving_Methodologies.py", 
                      title = "2.3.1 Student centric Problem Solving Methodologies")
 page_2_3_2 = st.Page("Criterion02/Criteria2.3/02_2.3.2_ICT_Enabled_Tools.py", 
-                     title = "2.3.2 ICT Enabled Tools")
+                     title = "2.3.2 ICT Enable Tools")
 page_2_5_1 = st.Page("Criterion02/Criteria2.5/01_2.5.1_Internal_Assessment_Details.py", 
                      title = "2.5.1 Internal Assessment related Questions and Attendance")
 
