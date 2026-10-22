@@ -77,7 +77,7 @@ if checked_status:
                             value =  str(selected_row.iloc[0][col]) if selected_row is not None else None, 
                             key = f"col3_{col_name}"
                             )
-            st.write(saved_value)
+            
 
 else:
     for i, col in enumerate(df_sheet.columns):
