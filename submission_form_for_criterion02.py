@@ -43,6 +43,7 @@ page_2_2_1 = st.Page("Criterion02/Criteria2.2/01_2.2.1_Programmes_For_Advanced_A
 page_2_3_1 = st.Page("Criterion02/Criteria2.3/01_2.3.1_Problem_Solving_Methodologies.py", 
                      title = "2.3.1 Student centric Problem Solving Methodologies")
 page_2_3_2 = st.Page("Criterion02/Criteria2.3/02_2.3.2_ICT_Enables_Tools.py", title = "2.3.2 ICT Enabled Tools")
+# page_2_3_3 = st.Page("Criterion02/Criteria2.3/03_test_text_input.py", title = "Text Input Testing")
 page_2_5_1 = st.Page("Criterion02/Criteria2.5/01_2.5.1_Internal_Assessment_Details.py", 
                      title = "2.5.1 Internal Assessment related Questions and Attendance")
 
@@ -51,7 +52,11 @@ page_2_5_1 = st.Page("Criterion02/Criteria2.5/01_2.5.1_Internal_Assessment_Detai
 landing_page = st.navigation(
     {
         "Criteria 2.2" : [page_2_2_1],
-        "Criteria 2.3" : [page_2_3_1, page_2_3_2],
+        "Criteria 2.3" : [
+                            page_2_3_1, 
+                            page_2_3_2, 
+                            # page_2_3_3
+                            ],
         "Criteria 2.5" : [page_2_5_1],
     }, expanded = True
 )
